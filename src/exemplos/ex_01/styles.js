@@ -4,14 +4,14 @@ import { RFValue } from "react-native-responsive-fontsize";
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignItems: cemter,
+        alignItems: 'center',
         backgroundColor: 'orange',
         padding: 8,
     },
     titulo: {
-        fontSize: RFValue(20),
+        fontSize: RFValue(15),
         color: '#fafafa',
-        fontWeight: bold,
+        marginTop: 16,
     }
 });
 
